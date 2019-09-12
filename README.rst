@@ -20,22 +20,22 @@ Usage
 Examples
 --------
 
-Example to upload current working directory
-::
-  S3Backup . testbucket
+Example to upload current working directory::
 
-Example to upload a home Directory
-::
-  S3Backup ~ testbucket
+  s3simplebackup . testbucket
 
-Example to upload a folder
-::
-  S3Backup folder testbucket
+Example to upload a home Directory::
 
-Example to upload all python scripts in Directory with default bucket
-::
-  S3Backup '*.py'
+  s3simplebackup ~ testbucket
 
-Example to upload all python scripts recursively in directory with default bucket
-::
-  S3Backup '**.py'
+Example to upload a folder::
+
+  s3simplebackup folder testbucket
+
+Example to upload all python scripts in Directory with default bucket::
+
+  s3simplebackup '*.py'
+
+Example to upload all python scripts recursively in directory with default bucket::
+
+  s3simplebackup '**.py'
