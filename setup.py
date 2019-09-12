@@ -7,13 +7,13 @@ with open('README.rst', encoding='UTF-8') as f:
 
 setup(
     name='s3simplebackup',
-    version='1.0.1',
+    version='1.2.0',
     description='Backs up a file or directory to S3',
     long_description=readme,
     author='Ben Gardner',
     author_email='bgardner160@gmail.com',
     url='https://github.com/aDrongo/s3simplebackup/',
-    download_url='https://github.com/aDrongo/s3simplebackup/archive/1.tar.gz',
+    download_url='https://github.com/aDrongo/s3simplebackup/archive/1.2.tar.gz',
     install_requires=['boto3'],
     packages=find_packages('src'),
     package_dir={'': 'src'},
